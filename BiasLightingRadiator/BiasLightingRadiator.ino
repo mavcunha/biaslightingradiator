@@ -95,7 +95,7 @@ void blinkBuiltInLed() {
 
 unsigned long readCurrentState(char command) {
     switch (command) {
-        case '  r':
+        case 'r':
             return IR_RED;
             break;
         case 'g':
