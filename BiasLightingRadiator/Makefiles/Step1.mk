@@ -132,7 +132,7 @@ MICRODUINO_PATH = $(MICRODUINO_APP)/Contents/Resources/Java
 #
 TARGET      := embeddedcomputing
 USER_PATH   := $(wildcard ~/)
-USER_FLAG   := false
+USER_FLAG   := true
 TEMPLATE    := NmiFVEpTZkMqAfrNXJh7pgGKXf6GJLwz
 
 # main.cpp selection
@@ -234,3 +234,4 @@ EXCLUDE_LIST   = $(addprefix %,$(EXCLUDE_NAMES))
 # Step 2
 #
 include $(MAKEFILE_PATH)/Step2.mk
+

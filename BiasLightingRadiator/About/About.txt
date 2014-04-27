@@ -11,5 +11,5 @@
 	
 	
 embedXcode  • Apr 19, 2014 release 150 • Stability enhancements 
-embedXcode+ • Apr 19, 2014 release 150 • Stability enhancements 
-		
+embedXcode+ • Apr 23, 2014 release 151 • Added My Boards configuration file
+	

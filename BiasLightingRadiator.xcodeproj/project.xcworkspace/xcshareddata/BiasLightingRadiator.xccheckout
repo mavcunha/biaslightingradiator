@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CF5CD9DB-6A52-4353-85E0-610E10FDDBA5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BiasLightingRadiator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD789AC6-D51A-48AA-85FB-3020F55C16E7</key>
+		<string>ssh://github.com/mavcunha/biaslightingradiator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BiasLightingRadiator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD789AC6-D51A-48AA-85FB-3020F55C16E7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mavcunha/biaslightingradiator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD789AC6-D51A-48AA-85FB-3020F55C16E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD789AC6-D51A-48AA-85FB-3020F55C16E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BiasLightingRadiator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

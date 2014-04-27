@@ -8,7 +8,7 @@
 # All rights reserved
 #
 #
-# Last update: Apr 19, 2014 release 150
+# Last update: Apr 22, 2014 release 151
 
 
 
@@ -303,7 +303,7 @@ ifdef USE_GNU99
     CFLAGS        = -std=gnu99
 endif
 
-ifeq (false,true)
+ifeq (true,true)
     SCOPE_FLAG  := +$(PLATFORM)
 else
     SCOPE_FLAG  := -$(PLATFORM)
@@ -829,7 +829,7 @@ ifneq ($(wildcard $(LOCAL_LIB_PATH)/*.h),) # */
 		@echo $(subst .h,,$(notdir $(wildcard $(LOCAL_LIB_PATH)/*.h))) # */
 endif
 ifneq ($(LOCAL_LIBS_LIST),)
-		@echo $(LOCAL_LIBS_LIST)
+		@echo $(LOCAL_LIBS_LIST)' ' | sed 's/\/ / /'
 endif
 ifeq ($(wildcard $(LOCAL_LIB_PATH)/*.h),) # */
 ifeq ($(LOCAL_LIBS_LIST),)
@@ -853,7 +853,7 @@ endif
 # Release management
 # ----------------------------------
 #
-RELEASE_NOW   := 150
+RELEASE_NOW   := 151
 
 
 # Rules
@@ -1252,3 +1252,4 @@ end_debug:
 
 
 .PHONY:	all clean depends upload raw_upload reset serial show_boards headers size document
+
